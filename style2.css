@@ -11,6 +11,7 @@ body {
       font-family: 'Merriweather Sans', sans-serif;
       color: var(--text-color);
       display: block;
+ 
 }
 
 h2 {
@@ -41,11 +42,11 @@ header > p {
 }
 
 #networks {
-    font-size: 14px;
+    font-size: 12px;
     background-color: var(--bg-cards);
     width: 348px;
-    height: 246px;
-    border-radius: 20px;
+    height: 327px;
+    border-radius: 20px; 
     margin-left: 20px;
     margin-top: 30px;
     padding-top: 20px;  
@@ -81,29 +82,28 @@ header > p {
     text-decoration: none;
     list-style: none;
     columns: 3;
-    padding-left: 27px;
+    padding-left: 32px;
     margin-top: 20px;
     color: black;
 }
 
-.js, .git, .css, .reactjs, .gith, .nodejs, .html {
+.js, .git, .css, .reactjs, .gith, .elixir, .nodejs, .html, .reactn {
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     background-color: var(--bg-techs);
     border-radius: 20px;
-    width: 83px;
-    height: 15px;
-    margin-bottom: 14px;
-    padding-top: 1px;
-    padding-bottom: 0px;
+    width: 81px;
+    height: 17px;
+    margin-bottom: 15px;
+    padding-top: 6px;
 }
 
 .reactjs, .gith, .nodejs {
     margin-left: -9px;
 }
 
-.html {
+.html, .reactn, .elixir {
     margin-left: -19px;
 }
 
@@ -151,7 +151,7 @@ header > p {
 #my {
     font-size: 20px;
     padding-top: 12px;
-    text-align: center;
+    padding-left: 30px;
 }
 
 #project > p {
@@ -194,6 +194,22 @@ header > p {
     vertical-align: middle;
     margin-top: 1px;
 }
+.number1 {
+    font-size: 12px;
+    padding-left: 37px;
+    margin-right: 1px;
+    margin-bottom: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1px;
+}
+
+.number1 > img {
+    padding-left: 1px;
+    padding-right: 10px;
+    width: 20px;
+    margin-left: -17px;
+}
 
 #folder2 {
     background-color: var(--bg-cards);
@@ -205,10 +221,27 @@ header > p {
     top: 119px;
 }
 
+.number2 {
+    font-size: 12px;
+    padding-left: 37px;
+    margin-right: 1px;
+    margin-bottom: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1px;
+}
+
+.number2 > img {
+    padding-left: 1px;
+    padding-right: 10px;
+    width: 20px;
+    margin-left: -17px;
+}
+
 .linguagem {
     margin-left: 106px;
     font-size: 13px;
-    padding-left: 264px;
+    padding-left: 121px;
     margin-bottom: 27px;
     display: inline-block;
     vertical-align: middle;
@@ -221,4 +254,20 @@ a:hover {
     background-color: var(--bg-techs);
     color: var(--body-bg-color);
     border-radius: 20px;
+}
+
+#post {
+    font-size: 15px;
+    padding-top: 12px;
+    padding-left: 30px;
+    background-color: var(--bg-cards);
+    width: 904px;
+    height: 74px;
+    border-radius: 15px;
+    position: absolute;
+    left: 386px;
+    top: 288px;
+}
+.posts {
+    
 }
